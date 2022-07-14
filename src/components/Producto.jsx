@@ -47,7 +47,7 @@ const Producto = ({carrito, setCarrito, cantidad,setCantidad, handleSubmit, aler
         <div className='imagen'>
             <style jsx>{`
                 .imagen{
-                    background-image: url(${`../public/images/image-product-${index}.jpg`});
+                    background-image: url(${`../../public/images/image-product-${index}.jpg`});
                     background-size: cover;
                     background-repeat: no-repeat;
                     background-position: center ;
