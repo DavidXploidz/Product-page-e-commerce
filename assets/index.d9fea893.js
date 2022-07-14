@@ -39,7 +39,8 @@ Error generating stack: `+o.message+`
  * LICENSE file in the root directory of this source tree.
  */var wp=$e.exports,kp=Symbol.for("react.element"),Sp=Symbol.for("react.fragment"),_p=Object.prototype.hasOwnProperty,Ep=wp.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,Cp={key:!0,ref:!0,__self:!0,__source:!0};function ic(e,n,t){var r,l={},o=null,i=null;t!==void 0&&(o=""+t),n.key!==void 0&&(o=""+n.key),n.ref!==void 0&&(i=n.ref);for(r in n)_p.call(n,r)&&!Cp.hasOwnProperty(r)&&(l[r]=n[r]);if(e&&e.defaultProps)for(r in n=e.defaultProps,n)l[r]===void 0&&(l[r]=n[r]);return{$$typeof:kp,type:e,key:o,ref:i,props:l,_owner:Ep.current}}Sl.Fragment=Sp;Sl.jsx=ic;Sl.jsxs=ic;(function(e){e.exports=Sl})(kl);const Gu=kl.exports.Fragment,N=kl.exports.jsx,I=kl.exports.jsxs,xp=({carrito:e,setCarrito:n,cantidad:t,setCantidad:r,handleSubmit:l,alerta:o})=>{const[i,u]=$e.exports.useState(1),s=[1,2,3,4,5],c=p=>p>s.length-1?1:p<1?s.length-1:p,h=()=>{u(p=>{let g=p-1;return c(g)})},m=()=>{u(p=>{let g=p+1;return c(g)})};return I("div",{className:"grid-producto content",children:[I("div",{className:"imagen",children:[N("style",{jsx:!0,children:`
                 .imagen{
-                    background-image: url(${`../../public/images/image-product-${i}.jpg`});
+                    /* background-image: url(${`../../public/images/image-product-${i}.jpg`}); */
+                    background-image: url(${`../images/image-product-${i}.jpg`});
                     background-size: cover;
                     background-repeat: no-repeat;
                     background-position: center ;
