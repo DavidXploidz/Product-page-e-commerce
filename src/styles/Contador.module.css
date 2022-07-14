@@ -1,0 +1,49 @@
+.contador{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: var(--Lightgrayishblue);
+    border-radius: 10px;
+}
+
+.contador button{
+    all: unset;
+    width: 30px;
+}
+.cantidad{
+    color: var(--Black);
+    font-weight: 700;
+    font-size: 18px;
+}
+.carrito{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1rem;
+    margin-top: 2rem;
+    background-color: var(--Orange);
+    padding: 1rem;
+    border-radius: 10px;
+}
+@media (min-width: 768px) {
+   .carrito{
+      
+        margin-top: 0;
+       
+   }
+}
+.img_carrito{
+    height: 24px;
+    width: 30px;
+}
+.carrito span{
+    all: unset;
+    color: var(--White);
+    font-weight: 700;
+    cursor: default;
+}
+.alerta{
+    margin-top: 1rem;
+    text-align: center;
+    color: red;
+}

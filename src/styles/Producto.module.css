@@ -1,0 +1,76 @@
+
+.company{
+    color: var(--Orange);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 2px;
+   
+}
+.titulo{
+    font-size: 32px;
+}
+@media (min-width: 768px) {
+   .titulo{
+    font-size: 40px;
+   }
+}
+.descripcion{
+    color: var(--Darkgrayishblue);
+}
+.precios{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+@media (min-width: 768px) {
+   .precios{
+        display: block;
+   }
+}
+.precio_actual{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.descuento{
+    color: var(--Orange);
+    background-color: var(--PaleOrange);
+    padding: 5px 10px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.precio_original{
+    color: var(--Grayishblue);
+    text-decoration: line-through;
+    font-weight: 700;
+}
+.btn_prev{
+    background-color: var(--White);
+    padding: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    border-radius: 100%;
+    
+}
+.btn_prev img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15px;
+}
+.btn_next{
+    background-color: var(--White);
+    margin: 0;
+    padding: 1rem;
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    border-radius: 100%;
+}
+.btn_next img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15px;
+}
